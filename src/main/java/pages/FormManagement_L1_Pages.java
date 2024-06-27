@@ -84,6 +84,7 @@ public class FormManagement_L1_Pages extends StartupPage
 	 * @author : Yaksha
 	 */
 	public String validateTitleOfHomePage() throws Exception {
+		// write your logic here
 		return null;
 	}
 	/**@Test2
@@ -94,6 +95,7 @@ public class FormManagement_L1_Pages extends StartupPage
 	 * @author : Yaksha
 	 */
 	public String  clickOnSwitchToAlertandValidateTitlePage() throws Exception {
+		// write your logic here
 		return null;
 	}
 
@@ -106,18 +108,19 @@ public class FormManagement_L1_Pages extends StartupPage
 	 */
 
 	public String handleAlertsPopupValidateAnAlertsPopup() throws Exception {
+		// write your logic here
 		return null;
 	}
 
 	/**@Test4
 	 * about this method clickOnRegisterLinkandFillTheForms() 
-	 * @param : Map<String, String>
-	 * @description : Click on the register and fill data in all fields
+	 * @param : fill the form using the data from Map<String, String> expectedData using fields "firstName", "lastName", "adds", "email", "phoneNo", "password" and "confirmPassword"
+	 * @description : Click on the register and fill data in all fields using above mentioned fields
 	 * @return : boolean
 	 * @author : Yaksha
 	 */
-
 	public boolean clickOnRegisterLinkandFillTheForms(Map<String, String> expectedData) throws Exception {
+		// write your logic here
 		return false;
 	}
 	/**@Test5
@@ -127,10 +130,11 @@ public class FormManagement_L1_Pages extends StartupPage
 	 * @return : boolean
 	 * @author : Yaksha
 	 */
-
 	public boolean clickOnSelectCountryAndSelectEachCountry() throws Exception {
+		// write your logic here
 		return false;
 	}
+	
 	/**@Test6
 	 * about this method selectEachCountryOneByOneFromCountryDrpdownAndValidate() 
 	 * @param : null
@@ -138,10 +142,11 @@ public class FormManagement_L1_Pages extends StartupPage
 	 * @return : String
 	 * @author : Yaksha
 	 */
-
 	public String selectAustraliaInCountryDrpdownAndValidate() throws Exception {
+		// write your logic here
 		return null;
 	}
+	
 	/**@Test7
 	 * about this method checkUncheckCheckBoxAndValidateThatCheckBox() 
 	 * @param : null
@@ -150,6 +155,7 @@ public class FormManagement_L1_Pages extends StartupPage
 	 * @author : Yaksha
 	 */
 	public boolean checkUncheckCheckBoxAndValidateThatCheckBox() throws Exception {
+		// write your logic here
 		return false;
 	}
 
@@ -161,6 +167,7 @@ public class FormManagement_L1_Pages extends StartupPage
 	 * @author : Yaksha
 	 */
 	public boolean selectRadioButtonvalidateRadioButtonOptionIsSelectable() throws Exception {
+		// write your logic here
 		return false;
 	}
 
@@ -173,20 +180,19 @@ public class FormManagement_L1_Pages extends StartupPage
 	 */
 
 	public boolean selectYearMonthDate() throws Exception {
+		// write your logic here
 		return false;
 	}
 
-	
-
-
 	/**@Test10
 	 * about this method filltheDetailsAndClickOnTheSubmitButton() 
-	 * @param : Map<String, String>
-	 * @description :click on the register and fill first name text field,lastNameTextbox,,emailAddressTextbox and then click on submit button
+	 * @param : fill the form using the data from Map<String, String> expectedData using fields "firstName", "lastName", "adds" and "email"
+	 * @description :click on the register and fill first name text field,lastNameTextbox, address ,emailAddressTextbox and then click on submit button
 	 * @return : boolean
 	 * @author : Yaksha
 	 */
 	public boolean filltheDetailsAndClickOnTheSubmitButton(Map<String, String> expectedData) throws Exception {
+		// write your logic here
 		return false;
 	}
 
@@ -198,6 +204,7 @@ public class FormManagement_L1_Pages extends StartupPage
 	 * @author : Yaksha
 	 */
 	public String afterClickOnSakinaliumCrossBrowserTestingDisplayTheText() throws Exception {
+		// write your logic here
 		return null;
 	}
 
