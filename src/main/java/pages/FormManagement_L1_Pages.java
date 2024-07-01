@@ -12,8 +12,7 @@ public class FormManagement_L1_Pages extends StartupPage
 	public SoftAssert softAssert;
 	/*
 	 * WebElemet Declaration
-	 */	
-	By pageTitleText = By.xpath(""); 
+	 */
 	By switchToNavigationMenu = By.xpath(""); 
 	By alertPopup = By.xpath("");  
 	By buttonToDisplayAnAlertBox = By.xpath("");  
@@ -51,15 +50,10 @@ public class FormManagement_L1_Pages extends StartupPage
 	By confirmPassword = By.xpath(""); 
 	By submitButton = By.xpath(""); 
 	By refreshButton = By.xpath(""); 
-	By chooseFile = By.xpath(""); 
-	By uploadImageFileName =By.xpath(""); 
-	By interactionNavigationBar = By.xpath("");
 	By selectableOption = By.xpath("");
 	By serializeOption = By.xpath("");
 	By sakinaliumCrossBrowserTestingOption = By.xpath("");
 	By messageAfterClickingSakinaliumCrossBrowserTestingOption = By.id("");
-
-
 
 	/*
 	 * Getting the page name
