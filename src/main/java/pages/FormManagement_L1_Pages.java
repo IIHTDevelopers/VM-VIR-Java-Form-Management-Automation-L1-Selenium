@@ -9,6 +9,8 @@ import org.testng.asserts.SoftAssert;
 
 public class FormManagement_L1_Pages extends StartupPage 
 {
+	// please write all the locators here
+	
 	public SoftAssert softAssert;
 
 	/*
