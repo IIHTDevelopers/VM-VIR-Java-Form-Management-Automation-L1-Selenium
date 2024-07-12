@@ -10,50 +10,6 @@ import org.testng.asserts.SoftAssert;
 public class FormManagement_L1_Pages extends StartupPage 
 {
 	public SoftAssert softAssert;
-	/*
-	 * WebElemet Declaration
-	 */
-	By switchToNavigationMenu = By.xpath(""); 
-	By alertPopup = By.xpath("");  
-	By buttonToDisplayAnAlertBox = By.xpath("");  
-	By registerNavigationMenu = By.xpath(""); 
-	By firstNameTextbox = By.xpath("");  
-	By lastNameTextbox = By.xpath("");  
-	By addressInputAreabox = By.xpath(""); 
-	By emailAddressTextbox = By.xpath(""); 
-	By phoneNumberTextbox =By.xpath(""); 
-	By maleRadioButton = By.xpath(""); 
-	By feMaleRadioButton = By.xpath(""); 
-	By cricketCheckBox = By.xpath(""); 
-	By moviesCheckBox = By.xpath(""); 
-	By hockeyCheckBox =By.xpath(""); 
-	By languageDropdown = By.xpath(""); 
-	By selectEnglish = By.xpath(""); 
-	By selectHindi = By.xpath(""); 
-	By skillsDropdown = By.xpath(""); 
-	By countryDropdown = By.xpath(""); 
-	By clickOnCountryDropdown = By.xpath(""); 
-	By selectCountryAustralia = By.xpath(""); 
-	By selectCountryBangladesh = By.xpath(""); 
-	By selectCountryDenmark = By.xpath(""); 
-	By selectCountryHongKong = By.xpath(""); 
-	By selectCountryIndia = By.xpath(""); 
-	By selectCountryJapan = By.xpath(""); 
-	By selectCountryNetherlands = By.xpath(""); 
-	By selectCountryNewZealand = By.xpath(""); 
-	By selectCountrySouthAfrica = By.xpath(""); 
-	By selectCountryUnitedStatesOfAmerica =By.xpath(""); 
-	By selectYear = By.xpath(""); 
-	By selectMonth = By.xpath(""); 
-	By selectDate = By.xpath(""); 
-	By password =By.xpath(""); 
-	By confirmPassword = By.xpath(""); 
-	By submitButton = By.xpath(""); 
-	By refreshButton = By.xpath(""); 
-	By selectableOption = By.xpath("");
-	By serializeOption = By.xpath("");
-	By sakinaliumCrossBrowserTestingOption = By.xpath("");
-	By messageAfterClickingSakinaliumCrossBrowserTestingOption = By.id("");
 
 	/*
 	 * Getting the page name
