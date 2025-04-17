@@ -125,10 +125,10 @@ public class FormManagement_L1_TestCases extends AppTestBase {
 	public void fillTheDetailsAndClickOnTheSubmitButton() throws Exception {
 		RegisterPageInstance = new FormManagement_L1_Pages(driver);
 		String expectedDataFilePath = testDataFilePath+"expected_data.json";
-		Map<String, String> expectedData = new FileOperations().readJson(expectedDataFilePath, "userdetails");
-		Assert.assertTrue(RegisterPageInstance.filltheDetailsAndClickOnTheSubmitButton(expectedData), "Register button is not present, please check manually");
+		Map<String, String> expectedData = new FileOperations().readJson(expectedDataFilePath, "Velidation_Title");
+		Assert.assertEquals(RegisterPageInstance.filltheDetailsAndClickOnTheSubmitButton(), expectedData.get("pageTitle"));
 		Assert.assertTrue(LocatorsFactoryInstance.countryDropdownIsPresent(driver).isDisplayed(), "Country dropdown menu is not present in the current page, Please check manually");
-	}	
+	}		
 
 
 	@Test(priority = 11, groups = {"sanity"}, description="click on Interaction Navigation Menu bar, then click on selectable option, then click on Serialize tab, then click on Sakinalium - Cross Browser Testing option. after click on Sakinalium - Cross Browser Testing some text value will display . Fetch that text value")
